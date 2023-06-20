@@ -16,7 +16,9 @@ app.get('/',(req,res) =>{
 
 } )
 
-
+app.get("/just",(req,res)={
+    res.render("just");
+})
 app.listen('8000',function(){
 
 console.log("Servidor carregado")
