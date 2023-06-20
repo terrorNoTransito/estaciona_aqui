@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    text-decoration: 0px;
+}
+
+
+header{
+    width: 100%;
+    height: 71px;
+ 
+background: #353F8E;
+}
+
+.voltar-logo-desenho1-desenho2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.voltar{
+
+    width: 100px;
+ align-self: flex-start;
+ margin-left: 30px;
+ margin-top: 50px;
+}
+.logo-desenho1-desenho2{
+
+width: 250px;
+align-self: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+
+.logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    
+    color: #353F8E;
+}
+
+.desenho1-desenho2{
+
+
+    width:600px;
+    display: flex;
+    gap: 60px;
+    margin-left: 70px;
+}
+
+.desenho1,.desenho2{
+
+     width: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 221px;
+    height: 204px;
+    margin-left: 20px;
+
+    background: #D9D9D9;
+  justify-content: center;
+  align-items: center;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+    
+}
+.img1,.img2{
+
+    width: 106px;
+    height: 106px;
+
+}
+
+.texto1,.texto2{
+
+
+    width: 100px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+margin-right: 20px;
+
+
+
+
+}
+
+
+button{
+    align-self: center;
+
+    background: #57A934;
+    /* SOMBRA BOTÃO
+    
+    BOTAO TJCE
+    */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-top: 100px;
+    width: 197px;
+height: 64px;
+margin-left: 15px;
+
+}
+
+h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+
+color: #FFFFFF;
+}
