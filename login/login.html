@@ -1,35 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de login</title>
-    <script src="codigo.js"></script>
-    <link rel="stylesheet" href="estilo.css">
-
+   <link rel="stylesheet" href="login.css">
+   <script src="codigo.js"></script>
+    <title>Login</title>
 </head>
 <body>
-    <header onclick="voltar()"  class="voltar">
-  <
-    </header>
+    <header></header>
 
+<main>
+    <div class="voltar-logo-desenho1-desenho2">
+ 
+        <a href="/porteiro_motorista/porteiro_motorista.html"><div class="voltar"><img  class="back"  src="BACK (1).png" alt="" srcset=""></div></a>
+        <div class="logo-desenho1-desenho2">
+            <div class="logo"><img src="ESTACIONE TJCE 3 (2).png"></div>
+            <div class="desenho1-desenho2">
+               
 
-
-    <main>
-        <div>
-           
-            <label >Senha</label>
-            <br><br>
-            <input type="password" id ="senha" class="senha" placeholder="Digite a senha">
-            <br><br>
-            <h6 id="alerta">* A Senha está errada contate o suporte.</h6>
-            <br><br>
-           <input type="submit" onclick="ver()"  id=buttao class="button" value="Entrar">
+              
+                 <input  id="usuario"   class="desenho1" type="text" placeholder="Usuário">
+                
             
+          
+            
+     
+               
+            <input id="senha" class="desenho2" type="text" placeholder="Senha">
+       
+
+        </div>
+    </div>
+    <div id="alerta">cuidado</div>
+    <button  onclick="ver()"><h1>Entrar</h1></button>
+    </div>
         </div>
 
-    </main>
-    
+</main>
+
 </body>
 </html>

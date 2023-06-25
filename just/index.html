@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
+   
     <title>Document</title>
 </head>
 <body>
@@ -13,33 +14,34 @@
 <main>
     <div class="voltar-logo-desenho1-desenho2">
  
-        <div class="voltar"><img  class="back"  src="BACK (1).png" alt="" srcset=""></div>
+        <a href="/mot1/mot1.html"><div class="voltar"><img  class="back"  src="BACK (1).png" alt="" srcset=""></div></a>
         <div class="logo-desenho1-desenho2">
             <div class="logo">Justificar Falta</div>
             <div class="desenho1-desenho2">
                
             <div class="desenho1">
-              
+                <input id="check1" type="checkbox">
                 <div class="img1">
                   <img src="computador-portatil.png" >
                 </div>
-                <div class="texto1">Visualizar </div>
+                <div class="texto1">Home</div>
             </div>
           
             
-            <div class="desenho2">
-               
+            <div onclick="alerta()" id="desenho2" class="desenho2">
+               <input id="check2" type="checkbox">
                 <div class="img2"><img src="exame-de-saude.png" alt="" srcset=""></div>
-                <div class="texto1">Justificar</div>
+                <div class="texto1">Médico</div>
 
             </div>
-        </div>
-    </div>
-    <button><h1>Confirmar</h1></button>
-    </div>
-        </div>
 
+    </div>
+
+    <button onclick="popup()"><h1>Confirmar</h1></button>
+    </div>
+        </div>
+       
 </main>
-
+<script src="script.js"></script>
 </body>
 </html>

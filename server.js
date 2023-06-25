@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname,"public")))
 //Organizar o node js nas routers-Pode ser resolvido no próxima acompanhamento
 app.get('/',(req,res) =>{
 
-    res.render('selecao_vagas')
+    res.render('views/load.ejs')
 
 } )
 
