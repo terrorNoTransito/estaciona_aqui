@@ -115,6 +115,11 @@ margin-left: 15px;
 
 }
 
+button:hover{
+
+    background-color: gray;
+}
+
 
 h1{
     font-family: 'Poppins';

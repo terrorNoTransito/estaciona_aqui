@@ -7,7 +7,7 @@ var embora =document.getElementById('buttao')
 if(code=="senha" && usuario=="nome"){
   alert("Você entrou")
   aviso.style.display="none"
-window.location.href="/Seleção de vagas/index.html";
+window.location="/port1/port1.html"
 }else if(valor==0){
     aviso.style.display="flex"
     aviso.innerHTML="* Digite uma senha"
