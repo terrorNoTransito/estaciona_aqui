@@ -40,8 +40,14 @@ def sv():
 def svm():
     return render_template('selecao_vagas_mot.html')
 
+@app.route('/just')
+def jus():
+    return render_template("just.html")
 
 
+@app.route('/mot')
+def mot1():
+    return render_template('mot1.html')
 
 
 

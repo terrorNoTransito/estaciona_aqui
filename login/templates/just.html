@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="/login/static/css/just.css">
    
+
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <header></header>
@@ -14,7 +16,7 @@
 <main>
     <div class="voltar-logo-desenho1-desenho2">
  
-        <a href="/mot1/mot1.html"><div class="voltar"><img  class="back"  src="BACK (1).png" alt="" srcset=""></div></a>
+        <a href="/mot"><div class="voltar"><img  class="back"  src="/login/static/imagens/BACK copy.png" alt="" srcset=""></div></a>
         <div class="logo-desenho1-desenho2">
             <div class="logo">Justificar Falta</div>
             <div class="desenho1-desenho2">
@@ -22,7 +24,7 @@
             <div class="desenho1">
                 <input id="check1" type="checkbox">
                 <div class="img1">
-                  <img src="computador-portatil.png" >
+                  <img src="/login/static/imagens/computador-portatil.png" >
                 </div>
                 <div class="texto1">Home</div>
             </div>
@@ -30,7 +32,7 @@
             
             <div onclick="alerta()" id="desenho2" class="desenho2">
                <input id="check2" type="checkbox">
-                <div class="img2"><img src="exame-de-saude.png" alt="" srcset=""></div>
+                <div class="img2"><img src="/login/static/imagens/exame-de-saude.png" alt="" srcset=""></div>
                 <div class="texto1">Médico</div>
 
             </div>
@@ -40,8 +42,20 @@
     <button onclick="popup()"><h1>Confirmar</h1></button>
     </div>
         </div>
-       
+        <dialog>
+        <div class="content">
+
+            <h2>Justificativa</h2>
+              <h2 class="sub"></h2>
+              <h3>Horário de envio</h3>
+              
+             <h4>Contato:suporte@gmail.com</h4>
+
+              
+            </div>
+        </dialog>
+
 </main>
-<script src="script.js"></script>
+<script src="/login/static/js/just.js"></script>
 </body>
 </html>
