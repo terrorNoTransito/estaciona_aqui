@@ -54,22 +54,21 @@ def mot():
 def login():
     nome=request.form.get('nome')
     senha=request.form.get('senha')
-    cont=0
-    for x in usuariodb:
-        cont+=1
-        nomedb=str(x[1])
-        senhadb=str(x[2])
-        
+    
 
-        if cont>= len(usuariodb):
-            flash("Usuario ou senha INVALIDOS")
-            return render_template('login.html')
-        if nomedb==nome and senhadb==senha:
-            print(nome,"Logado!")
-            return render_template('selecao_vagas.html')
-        else:
-            flash("Usuario ou senha INVALIDOS")
-            return render_template('login.html')
+    with open('usuarios.json') as usuariosTemp:
+        usuarios = json.load(usuariosTemp)
+        cont = 0
+        for usuario in usuarios:
+
+            cont += 1
+            if cont >= len(usuarios):
+                flash('USUARIO INVALIDO')
+                return render_template('login.html')
+            if usuario['nome'] == nome and usuario['senha'] == senha:
+                  return render_template('selecao_vagas.html')
+           
+         
    
             
 

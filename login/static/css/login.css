@@ -12,7 +12,13 @@ header{
  
 background: #353F8E;
 }
-
+div.flash_alerta{
+    background-color: red;
+    font-size: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+}
 .voltar-logo-desenho1-desenho2{
 
     display: flex;
