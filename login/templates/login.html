@@ -20,7 +20,13 @@
         <div class="logo-desenho1-desenho2">
             <div class="logo"><img src="/static/imagens/ESTACIONE TJCE 3 (2).png"></div>
             <div class="desenho1-desenho2">
-
+               
+    {% set menssagem = get_flashed_messages() %}
+    {% if menssagem %}
+        <div class="flash_alerta">
+            {{menssagem[0]}}
+        </div>
+    {% endif %}
 
 
               <form action="/login" id="login" method="post">
