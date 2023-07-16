@@ -14,6 +14,7 @@ background: #353F8E;
 }
 div.flash_alerta{
     background-color: red;
+display: none;
     font-size: 50px;
     border-radius: 30px;
     font-weight: bold;
