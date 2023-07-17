@@ -5,9 +5,7 @@ import json
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'gfg43ret23'
 
-   
-for x in range(len(usuariodb)):
-    print(str(usuariodb[x][1]),x)
+
 
 
 
