@@ -1,17 +1,10 @@
 from flask  import Flask,render_template,redirect,request,flash,jsonify,make_response,session
-import time 
-from threading import Timer
+
 import json
-import psycopg2
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'gfg43ret23'
 
-connect_bd = psycopg2.connect(user = "postgres", password ="123", host = "localhost", port = "5432", database ="login")
-cursor=connect_bd.cursor()
-comando='Select * from login'
-cursor.execute(comando)
-usuariodb=cursor.fetchall()
-print(usuariodb[1][1],len(usuariodb),usuariodb[1][2])
    
 for x in range(len(usuariodb)):
     print(str(usuariodb[x][1]),x)
